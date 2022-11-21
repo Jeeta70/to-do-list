@@ -1,0 +1,47 @@
+.border {
+  border: 1px solid red;
+}
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+.align-item-center {
+  align-items: center;
+}
+
+.padding-1 {
+  padding: 14px;
+}
+
+.color-muted {
+  color: #b9bec2;
+  font-size: small;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font-small {
+  font-size: small;
+}
+
+.hide {
+  visibility: hidden;
+  cursor: pointer;
+}

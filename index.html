@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <div class="container flex justify-content-center align-item-center">
+      <div class="to-do-list">
+        <div class="card">
+          <div
+            class="input-field-wrapper flex align-item-center justify-content-between"
+          >
+            <i class="fa-regular fa-file-lines"></i>
+            <input type="text" placeholder="Type your to do list" />
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="text-wrapper">
+            <i class="fa-solid fa-check-double color-muted text-center"></i>
+            <span class="color-muted text-center">Complete all tasks</span>
+            <span class="color-muted justify-content-end text-end"
+              >Clear completed</span
+            >
+          </div>
+          <main>
+            <ul>
+              <li>
+                <i class="fa-regular fa-circle text-center"></i>
+                <span>Learn how to use Vue js</span>
+                <i class="fa-regular fa-circle-xmark text-center hide"></i>
+              </li>
+              <li>
+                <i class="fa-regular fa-circle text-center"></i>
+                <span>Drink coffee</span>
+                <i class="fa-regular fa-circle-xmark text-center hide"></i>
+              </li>
+              <li>
+                <i class="fa-regular fa-circle text-center"></i>
+                <span>Learn how to use Vue js</span>
+                <i class="fa-regular fa-circle-xmark text-center hide"></i>
+              </li>
+            </ul>
+          </main>
+          <footer class="footer-wrapper">
+            <span class="font-small text-center">4</span>
+            <span class="color-muted">tasks left</span>
+            <span class="color-muted text-center">All</span>
+            <span class="color-muted text-center">Uncompleted</span>
+            <span class="color-muted text-center">Completed</span>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
