@@ -40,6 +40,11 @@
 .input-field-wrapper > i {
   font-size: x-large;
   margin: 7px 0px;
+  /* visibility: hidden; */
+}
+
+.fa-plus{
+  visibility: hidden;
 }
 
 input[type="text"] {
